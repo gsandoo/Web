@@ -1,0 +1,15 @@
+속성(Properties)과 값(Values)
+/* h1{color:red;} */ 기본 형태
+여기서 color는 속성, red는 값
+
+
+예)
+div{
+    /* color: red;
+    width: 20 px;
+    font-size: 20px;
+    margin:20px;
+    padding: 10px 20px;
+    position: absolute; */
+}
+

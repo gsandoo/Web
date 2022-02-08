@@ -1,0 +1,41 @@
+1. 태그에 직접 작성하기 (인라인) > 손으로 직접 작성
+-이 방법은 HTML 태그에 직접 작성하기 때문에 선택자가 필요하지 않습니다.
+
+예제)
+/* <div style="color:red";>태그에 직접 작성1</div> */
+
+
+2. HTML내에서 포함하기 (내장) EMBEDDED
+-CSS만 따로 작성하기 때문에 선택자가 필요합니다.
+-CSS 코드가 HTML의 <style></style> 안에 포함되어 있습니다.
+
+예)
+/* <head>
+    <style>
+    div{
+        color:red;
+    }
+    </style>
+</head>
+<body>
+    <div>HTML에 포함</div> --- 효과적용
+    <div>HTML에 포함</div>
+    <div>HTML에 포함</div>
+    <div>HTML에 포함</div> */
+
+
+
+3.HTML 외부에서 불러오기 LINK 태그 활용
+-CSS 코드를 완전히 분리할 수 있습니다.
+-분리된 하나의 CSS파일을 여러 HTML파일이 불러와서 사용할 수 있습니다.
+
+
+예)
+/* <head>
+    <link rel="stylesheet" href=" / / /.css"
+</head>
+
+<body>
+    <div>외부에서 불러오기 1 </div> --- 여기에 css파일 효과 적용 */
+
+
