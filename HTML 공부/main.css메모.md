@@ -12,7 +12,7 @@ body{
 } */
 .container-left{
     padding-top: 20px;           >>> 위아래 패딩을 통해 글자 가운데 정렬
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .logo{
     float: left;
