@@ -1,4 +1,4 @@
-# 1. <header> 태그 -block
+<PRE># 1. <header> 태그 -block
 헤더를 작성할 때 쓰는 태그, 소개나 탐색을 돕는 그룹
 
 # 2. <footer> 태그 -block
@@ -34,7 +34,7 @@ article > section > div 순으로 의미부여
 
 # 10. <div> 태그 -block
 아무 의미도 없는 태그, 아무것도 나타내지 않는 콘텐츠 영역.
-CSS,JAVA 삽입해서 DIV의 범위에 스타일링,제어를 할 때 많이 사용.
+CSS,JAVA 삽입해서 DIV의 범위에 스타일링,제어를 할 때 많이 사용.</PRE>
 
 
  
