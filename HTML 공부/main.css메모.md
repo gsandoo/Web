@@ -1,4 +1,4 @@
-body{
+<PRE>body{
     margin:0;            >>> 마진과 패딩 초기화
     padding:0;
 }
@@ -32,4 +32,4 @@ body{
     content: "";
     display: block;
     clear: both;
-}
+}</PRE>
