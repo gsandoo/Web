@@ -28,7 +28,13 @@
 다른 페이지 링크를 제공하는 영역을 설정
 (navigation, 보통 메뉴, home, about, contact us)등을 설정
 
+# <Address> 태그 -block
+<body>,<article>,<footer>등에서 연락처 정보를 제공 하는 태그
+이메일,전화번호,주소 가 될 수도 있음.
 
+# <div> 태그 -block
+아무 의미도 없는 태그, 아무것도 나타내지 않는 콘텐츠 영역.
+CSS,JAVA 삽입해서 DIV의 범위에 스타일링,제어를 할 때 많이 사용.
 
 
 
