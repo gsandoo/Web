@@ -27,11 +27,14 @@ main{
   display: block;  
 }
 .menu{
-    
+    margin-left: 20px;
 }
 .menu-item{
     float:left;
     padding: 6px 10px;
+}
+.container-right .menu{
+    margin-left: 60px;
 }
 .container-right{
     width: 50%;
