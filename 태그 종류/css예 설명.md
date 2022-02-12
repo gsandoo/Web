@@ -1,4 +1,4 @@
-body{
+<pre>body{
     margin: 0px;
     padding: 0px;
     border-bottom: 1px solid blueviolet;
@@ -12,15 +12,16 @@ body{
     margin: auto;
 }
 main{
-    display: flex;                     
+    display: flex;                      >>> 수평으로 만들어줌
 }
 .container-left{
-    padding: 20px 0px;                 
+    padding: 20px 0px;                  >>> 글자 중앙 정렬
     background-color: aqua;
     width: 50%;
 }
 .logo{
-    float: left;                       
+    float: left;                        >>> 수평으로 만들어줌
+}
 .logo img{
   margin-right: 5px;
   display: block;  
@@ -29,7 +30,7 @@ main{
     
 }
 .menu-item{
-    float:left;                        
+    float:left;                         >>>수평으로 만들어줌
     padding: 6px 10px;
 }
 .container-right{
@@ -44,8 +45,8 @@ main{
     padding: 6px 10px;
     margin-left:15px;
 }
-.clearfix::after{                      
+.clearfix::after{                       >>> float: left; 버그 푸는거
     content: "";
     display: block;
     clear: both;
-}
+}</pre>
