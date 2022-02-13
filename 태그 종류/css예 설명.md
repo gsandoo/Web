@@ -1,52 +1,57 @@
-<pre>body{
-    margin: 0px;
-    padding: 0px;
-    border-bottom: 1px solid blueviolet;
+<pre>header{
+    background: green;
+    margin: 10px;
+    padding: 20px;
 }
-.header{
-    
+header nav{
+
 }
-.container{
-    background-color: white;
-    width: 980px;
-    margin: auto;
+header nav ul{
+    display: flex;                          >>> 수평
+}
+header nav ul li{
+    list-style: none;                       >>> li의 틀징 점을 지워줌
+    margin: 10px;
 }
 main{
-    display: flex;                      >>> 수평으로 만들어줌
+    display: flex;
 }
-.container-left{
-    padding: 20px 0px;                  >>> 글자 중앙 정렬
-    background-color: aqua;
-    width: 50%;
+section{
+    width: 70%;
+    background: green;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;                 >>> 패딩 후 늘어나는 걸 방지.
 }
-.logo{
-    float: left;                        >>> 수평으로 만들어줌
+section h1{
+
 }
-.logo img{
-  margin-right: 5px;
-  display: block;  
+article{
+    background: blue;
+    margin-bottom: 10px;
+    padding: 10px;
 }
-.menu{
-    
+article h2{
+
 }
-.menu-item{
-    float:left;                         >>>수평으로 만들어줌
-    padding: 6px 10px;
+article p{
+
 }
-.container-right{
-    width: 50%;
-    background-color: green;
-    float:left;
-    padding: 20px 0px;
+aside{
+    width: 30%;
+    background: yellow;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
 }
-.item{
-    font-size: 12px;
-    float: left;
-    padding: 6px 10px;
-    margin-left:15px;
+footer{
+    background: orange;
+    margin: 10px;
+    padding: 20px;
 }
-.clearfix::after{                       >>> float: left; 버그 푸는거
-    content: "";
-    display: block;
-    clear: both;
+footer address{
+
+}
+footer address a{
+    display: block;ㄴ
 }</pre>
