@@ -1,7 +1,7 @@
 <pre>body{
     margin: 0px;
     padding: 0px;
-    border-bottom: 1px solid blueviolet;
+    border-bottom: 1px solid blueviolet;    >>>얇은 줄 생성
 }
 .header{
     
