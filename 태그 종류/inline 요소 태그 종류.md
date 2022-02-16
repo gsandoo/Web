@@ -85,4 +85,70 @@
 
 
 
+# u 태그 -inline 요소
 
+밑줄있는 글자를 설정.
+꾸미는 용도로 사용. (css 권장)
+
+
+
+# code 태그 -inline 요소
+
+컴퓨터코드 범위를 설정.
+
+
+
+# kbd 태그 -inline 요소
+
+키보드 사용자 입력(키)을 나타내는 범위를 설정.
+
+예) kbd Alt /kbd
+
+
+
+# sup sub 태그 -inline 요소
+
+위 첨자 (sup) 와 아래 첨자 (sub) 를 설정.
+
+
+
+# time 태그 -inline 요소
+
+날짜와 시간을 나타내기 위한 목적으로 사용.
+속성:
+<strong>datetime="YYYY-MM-DD"</strong>
+IE 사용불가.
+
+
+
+# span 태그 inline요소 div 태그 같은 존재 -inline 요소
+
+아무것도 나타내지 않는 콘텐츠 영역을 설정.
+영역을 나타내서 css나 js를 사용해 스타일 잡음.
+
+
+
+# br/ 태그 , 빈 태그 -inline 요소
+
+줄 바꿈을 설정.
+
+
+
+# del 태그 -inline 요소 (수정 태그)
+
+삭제된 텍스트의 범위를 지정.
+
+속성:
+<strong>cite="URL"
+datetime="YYYY-MM-DD"</strong>
+
+
+
+# ins 태그 -inline 요소 (수정 태그)
+insert.
+
+새로 추가된 텍스트의 범위를 지정.
+
+속성:
+<strong>cite="URL"
+datetime="YYYY-MM-DD"</strong>

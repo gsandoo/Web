@@ -11,9 +11,31 @@ a{
 a:hover{
     background: orange;
 }
+
 /* ul{
     padding-bottom: 500px;
 }
 h2{
     padding-bottom: 1000px;
 } */
+/* 
+code{
+    color: orange;
+    background-color: lightgray;
+    padding: 3px;
+    border: 1px solid orange;
+    display: block;
+    width: 100px;
+    text-align: center;
+} */
+kbd{
+    padding: 0 3px;
+    border-radius: 3px;
+    border-top: 2px solid rgb(240,240,240);
+    border-bottom: 2px solid rgb(205,205,205);
+    border-left: 2px solid rgb(240,240,240);
+    border-right: 2px solid rgb(205,205,205);
+}
+span{
+    line-height: 50px;
+}

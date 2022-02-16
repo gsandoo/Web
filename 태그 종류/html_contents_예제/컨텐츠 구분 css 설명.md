@@ -53,5 +53,6 @@ footer address{
 
 }
 footer address a{
-    display: block;ㄴ
-}</pre>
+    display: block;
+}
+</pre>
