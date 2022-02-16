@@ -12,13 +12,13 @@ a:hover{
     background: orange;
 }
 
-/* ul{
+ul{
     padding-bottom: 500px;
 }
 h2{
     padding-bottom: 1000px;
 } */
-/* 
+
 code{
     color: orange;
     background-color: lightgray;
@@ -27,7 +27,7 @@ code{
     display: block;
     width: 100px;
     text-align: center;
-} */
+}
 kbd{
     padding: 0 3px;
     border-radius: 3px;
