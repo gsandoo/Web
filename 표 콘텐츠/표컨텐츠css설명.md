@@ -1,5 +1,5 @@
 <PRE>table{
-border-collapse: collapse;             <strong>>>> 틀 공간 없애기</strong>
+border-collapse: collapse;           <strong>>>> 틀 공간 없애기</strong>
  }
 th{                                  <strong>>>>테이블 헤더</strong>
  }  
