@@ -13,36 +13,36 @@
         <button type="submit">로그인</button> -->
         
         <!-- input 연습 -->
-        <form action="/login" method="get" id="formform">
-            <input type="email" name="id">
+        <form action="/login" method="get" id="formform">                   >-어떤창으로 이동할지./메서드/아이디
+            <input type="email" name="id">                                  >-이메일 타입/url표시위해 name=id
             <input type="password" name="pw">
-            <input type="submit" value="로그인">
-            <input type="number" value="1234" disabled readonly>
-            <input type="number" value="12343"  readonly> 
-            <input type="number" placeholder="숫자를 입력하세요">  
-            <input type="number" placeholder="숫자증가" step="4" > 
+            <input type="submit" value="로그인">                             >-타입 submit=페이지 이동,value쓰여있음 
+            <input type="number" value="1234" disabled >                    >-타입number 숫자만쓰여짐/글 안써짐                    >
+            <input type="number" value="12343"  readonly>                   >-읽기 전용
+            <input type="number" placeholder="숫자를 입력하세요">             >-placeholder=희미하게 힌트줌
+            <input type="number" placeholder="숫자증가" step="4" >           >-4씩증가
            
-            <input type="checkbox" checked>
+            <input type="checkbox" checked>                                 >-체크박스에 체크
 
-            <input type="file" multiple>
+            <input type="file" multiple>                                    >-다중파일선택
 
-            <input type="image" src="../">
+            <input type="image" src="../" alt="">                           >-이미지 입력 소스와 알트 필수.
 
-            <input type="radio" name="radio1">
+            <input type="radio" name="radio1">                              >-radio여러개는 보통 설문할때
             <input type="radio" name="radio1" checked>
             <input type="radio" name="radio1">
             <input type="radio" name="radio1">
-            <input type="reset" value="초기화">
+            <input type="reset" value="초기화">                             >- 폼양식 안에 있는 거 초기화
 
         </form>
-        <input type="text"  form="formform">
+        <input type="text"  form="formform">                                >-폼 양식 밖에있지만 폼 안의 양식을 form으로 연결함. 
     </form>
 
     <!-- 라벨 가능 요소를 참조 -->
-    <input type="checkbox" id="user-agreement" />
-    <label for="user-agreement">동의하십니까?</label>
+    <input type="checkbox" id="user-agreement" />                           
+    <label for="user-agreement">동의하십니까?</label>                        >- for로 위id랑 연결
 
     <!-- 라벨 가능 요소를 포함 -->
-    <label><input type="checkbox" />동의하십니까?</label>
+    <label><input type="checkbox" />동의하십니까?</label>                   >-라벨태그 안에 인풋태그 넣어서 위에랑 똑같은 효과를 냄.
 </body>
 </html>
