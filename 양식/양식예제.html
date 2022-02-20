@@ -43,14 +43,14 @@
     <label for="user-agreement">동의하십니까?</label>                        >- for로 위id랑 연결
 
     <!-- 라벨 가능 요소를 포함 -->
-    <label><input type="checkbox" />동의하십니까?</label>                   >-라벨태그 안에 인풋태그 넣어서 위에랑 똑같은 효과를 냄.
+    <label><input type="checkbox" />동의하십니까?</label>                    >-라벨태그 안에 인풋태그 넣어서 위에랑 똑같은 효과를 냄.
 
     <!-- fildset 과 legend 태그 연습 -->
     <form>
         <fieldset>
           <legend>Coffee Size</legend>
           <label>
-              <input type="radio" name="size" value="tall" />
+              <input type="radio" name="size" value="tall" />               >- 택1버튼에 이름은 사이즈로 통일, value는 사이즈 값. 데이터 초기 값.
               Tall
           </label>
           <label>
@@ -64,5 +64,26 @@
         </fieldset>
       </form>
 
+
+      <!-- select,option,optgroup,datalist 태그 연습 -->
+    <input type="text" list="fruits">                                         > 택스트 타입에 리스트로 fruit을 지정.
+    <datalist id="fruits">                                                    > datalist id로 list이름을 적어 서로 연결시킴.
+          <option>Apple</option>                                              > option을 통해 선택할 수 있게 만듬.
+          <option>Orange</option>
+          <option>Banana</option>
+          <option>Mango</option>
+          <option>Pineapple</option>
+    </datalist>
+<select name="fruits">
+    <optgroup label="하이">
+        <option>애플</option>
+        <option>망고</option>
+        <option>포도</option>
+    </optgroup>
+    <optgroup label="산아">
+        <option selected>딸기</option>
+        <option>참외</option>
+    </optgroup>
+</select>
 </body>
 </html>
