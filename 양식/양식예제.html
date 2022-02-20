@@ -28,7 +28,7 @@
 
             <input type="image" src="../" alt="">                           >-이미지 입력 소스와 알트 필수.
 
-            <input type="radio" name="radio1">                              >-radio여러개는 보통 설문할때
+            <input type="radio" name="radio1" >                              >-radio여러개는 보통 설문할때
             <input type="radio" name="radio1" checked>
             <input type="radio" name="radio1">
             <input type="radio" name="radio1">
@@ -44,5 +44,25 @@
 
     <!-- 라벨 가능 요소를 포함 -->
     <label><input type="checkbox" />동의하십니까?</label>                   >-라벨태그 안에 인풋태그 넣어서 위에랑 똑같은 효과를 냄.
+
+    <!-- fildset 과 legend 태그 연습 -->
+    <form>
+        <fieldset>
+          <legend>Coffee Size</legend>
+          <label>
+              <input type="radio" name="size" value="tall" />
+              Tall
+          </label>
+          <label>
+              <input type="radio" name="size" value="grande" />
+              Grande
+          </label>
+          <label>
+              <input type="radio" name="size" value="venti" />
+              Venti
+          </label>
+        </fieldset>
+      </form>
+
 </body>
 </html>
