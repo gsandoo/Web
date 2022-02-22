@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .section{
+            background-color: blue;                                     >>> style 태그 활용법
+        }
+        #section{
+            background-color: yellow;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <!-- <div class="section">hello</div>
+    <div class="section"></div>                                           >>> 클래스와 id title 쓰는 법
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div id="section">kim</div>
+    <div class="section"></div>
+    <div title="hioii">hi</div>
+    <h1 title="kim">kim</h1>
+    <a href="www.google.com"title="구글">google</a>
+    <script>
+        const section = document.querySelector(".section");
+        const sectionId = document.getElementById("section");
+    </script>-->
+    <div id="me" data-my-name="sanah" data-my-age="25">Gsandoo</div>        >>> data-* 쓰는 법 (js 와 연동 가능)
+    <script>
+        const me = document.getElementById('me');                           >>>문서안에 me 로 id 찾아서 me 안에 저장 
+        console.log( me.dataset.myName);                                    >>> 콘솔에 me안에 dataset 안에 myName을 띄운다
+        console.log(me.dataset.myAge);                                      >>> 콘솔에 me안에 dataset 안에 myAge을 띄운다
+    </script>
+</body>
+</html>
