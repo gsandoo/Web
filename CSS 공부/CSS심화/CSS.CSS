@@ -8,6 +8,22 @@ h1{
     color: blueviolet;
     
 }
-#age{
-    color: brown;
+
+.home+h1{                   /*인접형제 선택자*/
+    color: blue;
+}
+.name+div{                  /*인접형제 선택자*/
+    color:bisque
+}
+h1.home{                    /*복합선택자*/
+    color: chocolate;
+}
+div>#age{                   /*자식 선택자*/
+    color: crimson;
+}
+div h1{                     /*후손 선택자*/
+    color:darkgreen
+}
+.home~h1{                   /*일반 형제 선택자*/
+    color: darkcyan;
 }
