@@ -71,7 +71,10 @@ h1:nth-child(n+3){          /*nth child 사용법, 3번째 부터 끝까지*/
   .number{
     font-size: 40px;
   }
-  .number li::before {                  /*가상요소, before 사용법*/
+
+
+  /*가상요소, before 사용법*/
+  .number li::before {                 
     content: "넘버";
     font-weight: bold;
     color: lightblue;
@@ -79,4 +82,14 @@ h1:nth-child(n+3){          /*nth child 사용법, 3번째 부터 끝까지*/
     border-bottom: 5px solid black;
     padding: 10px 5px;
     border-radius: 30%
+  }
+
+  /*속성선택자*/
+  [disabled]{
+    opacity: 0.4;
+    color: red;
+  }
+  [type="password"]{
+    border: 1px solid blue;
+    display: block;
   }
