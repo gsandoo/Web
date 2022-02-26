@@ -1,6 +1,3 @@
-*{
-    color: aqua;
-}
 h1{
     color:red;
 }
@@ -27,3 +24,59 @@ div h1{                     /*후손 선택자*/
 .home~h1{                   /*일반 형제 선택자*/
     color: darkcyan;
 }
+li:first-child{             /*first child*/
+    color: blue     
+}
+.fruits li:nth-child(2n){   /*nth child 사용법, 짝수 사용법*/
+    color: darkkhaki;
+}
+h1:nth-child(n+3){          /*nth child 사용법, 3번째 부터 끝까지*/
+    color: darkorange;
+
+}
+.basketball li{             /*후손 선택자*/
+    list-style: none;
+  }
+  .basketball li:first-child{   /*후손 선택자 , li의 퍼스트 차일드*/
+    color:gold;
+    font-weight: bold;
+  }
+  .basketball li:nth-child(2){  /*후손, n번째 차일드 n은2*/
+    color:green;
+    font-weight: bold;
+  }
+  .basketball li:last-child{        /*후손, 라스트 차일드*/
+    color: red;
+    font-weight: bold;
+  }
+  .basketball li:nth-child(3){      /*후손 li의 3번째 차일드*/
+    color: blue;
+    font-weight: bold;
+  }
+  .fruits{                          /*fruits 클래스*/
+    font-size: 40px;
+  }
+  .fruits p{                        /*후손 p*/
+    color:Red;
+    font-weight: bold;
+  }
+  .fruits > :first-child{           /*fruits 클래스 후손, 첫번째 자식들*/
+    color: green;
+  }
+  .fruits span{
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .number{
+    font-size: 40px;
+  }
+  .number li::before {                  /*가상요소, before 사용법*/
+    content: "넘버";
+    font-weight: bold;
+    color: lightblue;
+    margin-right: 20px;
+    border-bottom: 5px solid black;
+    padding: 10px 5px;
+    border-radius: 30%
+  }
