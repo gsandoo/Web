@@ -93,3 +93,12 @@ h1:nth-child(n+3){          /*nth child 사용법, 3번째 부터 끝까지*/
     border: 1px solid blue;
     display: block;
   }
+  [class^="btn-"]{
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: aqua;
+    display: block;
+  }
+  [class$="fail"]{
+    background-color: darkcyan;
+  }
