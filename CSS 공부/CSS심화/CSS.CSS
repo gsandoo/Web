@@ -97,8 +97,43 @@ h1:nth-child(n+3){          /*nth child 사용법, 3번째 부터 끝까지*/
     font-weight: bold;
     border-radius: 20px;
     background-color: aqua;
-    display: block;
+    
   }
   [class$="fail"]{
     background-color: darkcyan;
+  }
+
+  /* 단위 공부 em*/
+
+  body * {
+    border: 2px solid;
+  }
+  .container  {
+    width: 60em;
+    font-size: 10px;
+  }
+  .parent {
+    width: 30em;
+  }
+  .child  {
+    width: 15em;
+  }
+
+  /*단위 공부 rem*/
+
+  html{
+    width:1000px;
+  }
+  body * {
+    border: 2px solid;
+  }
+  .container  {
+    width: 60em;
+    font-size: 10px;
+  }
+  .parent {
+    width: 30em;
+  }
+  .child  {
+    width: 20rem;
   }
