@@ -1,3 +1,4 @@
+/*position : relative 연습*/
 .box{
     width: 100px;
     height: 100px;
@@ -17,3 +18,36 @@
     bottom: 40px;
     left: 50px;
   }
+
+  /*position: absolute 연습*/
+
+.grandparent{
+    width: 400px;
+    height: 300px;
+    padding: 30px 100px 100px 30px;
+    border: 10px dashed lightgray;
+}
+.parent{
+  width: 400px;
+  height: 300px;
+  border: 10px  dashed gray;
+  position: relative;
+}
+.child {
+  width: 120px;
+  height: 80px;
+  background: tomato;
+  border: 4px dashed red;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.absolute{
+position: absolute;
+top: 50px;
+left: 100px;
+
+}
