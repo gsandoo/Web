@@ -1,0 +1,18 @@
+article{
+    background: yellow;
+}
+img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+article .text2{
+    clear: both;  /*float:left; 해제 방법 1*/
+}
+
+.clearfix::after{
+
+    content: "";
+    clear: both;
+    display: block; /*float:left; 해제 방법 2 ( 추천)*/
+}
