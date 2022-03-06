@@ -1,0 +1,50 @@
+/* transform: translate() 사용법 */
+.box1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+  }
+  .box1:hover{
+    transform: translate(100px,100px);  /* translate 이동*/
+  }
+
+
+  /* transform: scale() 사용법  */
+  .box2{
+    margin: 100px;  
+    width: 100px;
+    height: 100px;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+  }
+  .box2:hover{
+    transform: scale(1.5);  /* scale 크기 */
+  } 
+
+  /* transform: skew() 사용법  */
+  .box3{
+    margin: 200px 200px;  
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+  }
+  .box3:hover{
+    transform: skew(45deg);  /* skew 비틀기 */
+  } 

@@ -1,0 +1,40 @@
+/* transition-property, transition-duration 작성법*/
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 50px;
+    transition: width 1s, background-color 1s; /* transition: property duration 순으로 작성*/
+  }
+  .box:hover{
+    width: 300px;
+    background: dodgerblue;
+  }
+
+/* transition-timing-function 작성법*/
+.box2{
+    width: 100px;
+    height: 100px;
+    background: lightcyan;
+    margin: 50px;
+    transition: 2s steps(4);
+    transition-timing-function: linear;  /*일정한 속도 트랜지션 효과*/
+  }
+  .box2:hover{
+    width: 300px;
+    background: navy;
+  }
+
+  /*transition-delay*/
+  .box3{
+    width: 100px;
+    height: 100px;
+    background: lightsalmon;
+    margin: 50px;
+    transition: 2s 3s;                    /* transition: duration delay*/
+    transition-timing-function: ease-in;  /*일정한 속도 트랜지션 효과*/
+  }
+  .box3:hover{
+    width: 300px;
+    background: lightblue;
+  }
