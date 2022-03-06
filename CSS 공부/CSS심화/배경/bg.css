@@ -1,0 +1,45 @@
+/*background-image*/
+.imagefile{
+    width: 300px;/*배경 틀 잡아주고*/
+    height: 300px;/*배경 틀 잡아주고*/
+    background-image: url("../../basketball-g50ab842dc_1280.png");
+    background-color: red;
+    background-size: 100%; /*배경 틀 안에서 이미지 사이즈 100%*/
+    border: 2px dashed black;
+}
+
+/* background-repeat*/
+.box{
+    margin-top: 50px;
+    width: 1000px; /*배경 틀 잡아주고*/
+    height: 1000px;/*배경 틀 잡아주고*/
+    background-image: url("../../basketball-g50ab842dc_1280.png");
+    border: 5px dashed black; /*외곽선 잡아주고*/
+    background-repeat: repeat-y;  /*수직 반복*/
+    background-size: 300px 200px; /*이미지 실제 사이즈 잡아주고*/
+}
+
+/* background-position*/
+.box2{
+    margin-top: 50px;
+    width: 500px; /*배경 틀 잡아주고*/
+    height: 500px;/*배경 틀 잡아주고*/
+    background-image: url("../../basketball-g50ab842dc_1280.png");
+    border: 10px dashed black; /*외곽선 잡아주고*/
+    background-repeat: no-repeat;  
+    background-size: 300px 200px; /*이미지 실제 사이즈 잡아주고*/
+    background-position: right bottom; /* 위치 오른쪽 아래*/
+    background-color: lightpink;
+}
+
+/* background-size*/
+
+.box3{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    background-image: url("../../basketball-g50ab842dc_1280.png");
+    background-repeat: no-repeat; /* 이미지 반복 x*/
+    background-size:contain; /* 이미지 크기 짧은쪽에 맟춰 이미지 출력 */
+    border: 10px dashed black;
+}
