@@ -26,10 +26,3 @@
 
 - transition: duration delay; 순으로 인식함.
 
-# transform
-
-- 요소를 변형시킴.
-
-- transform: 원근법 이동 크기 회전 기울임;
-
-# trans

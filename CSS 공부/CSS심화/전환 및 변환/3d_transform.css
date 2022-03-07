@@ -1,0 +1,35 @@
+/* img{
+    margin: 300px;
+    width: 300px;
+    border: 1px solid red;
+    transition: 2s;
+    transform: perspective(200px) rotateX(20deg) rotateY(20deg);
+  } */
+
+
+  .perspective{
+    perspective: 500px;
+    width: 200px;                       /*자식요소와 가로넓이를 일치시켜야함*/
+    padding: 70px;
+  }
+  .grand-parent{
+    width: 200px;
+    border: 3px solid lightgrey;
+    transition: 1s;
+    transform: rotateX(-45deg);
+    transform-style: preserve-3d;       /*transform-style 자식요소도 3d스타일 적용가능하게함.*/
+    
+  }
+  .parent{
+    width: 200px;
+    border: 3px solid navy;
+    transition: 1s;
+    transform: rotateY(-45deg);
+    transform-style: preserve-3d;
+  }
+  img{
+    width: 200px;
+    border: 3px solid orange;
+    transition: 1s;
+    transform: rotateX(60deg);
+  }
