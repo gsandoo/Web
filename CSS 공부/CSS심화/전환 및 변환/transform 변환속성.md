@@ -13,9 +13,13 @@
 - preserve-3d: 자식요소도 사용 가능.
 
 
-# perspective
+# perspective 속성
 
 - 하위 요소를 관찰하는 원근 거리를 설정.
+
+- 속성은 부모요소에 원근감을 주는 개념 (자식요소가 많을 때)
+
+- 함수는 관찰 대상에 원근감을 주는 개념
 
 # perspective-origin
 
