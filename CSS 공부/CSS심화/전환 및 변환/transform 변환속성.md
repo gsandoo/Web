@@ -19,13 +19,26 @@
 
 - 속성은 부모요소에 원근감을 주는 개념 (자식요소가 많을 때)
 
-- 함수는 관찰 대상에 원근감을 주는 개념
+- 함수는 관찰 대상(자식)에 원근감을 주는 개념
 
 # perspective-origin
 
 - 원근거리 기준점 설정
 
+-  perspective 속성에 정중앙(x 50% y50%)이 기본값
+
+-  방향, %, 단위로 위치 설정.
+
 # backface-visibility
 
 - 3d 변환으로 회전된 요소의 뒷면 안보이게 설정.
+
+- visible(기본) , hidden 
+
+# matrix (a,b,c,d,e)
+
+- 2차원 변환함수
+
+- scale , skew , translate , rotate 를 지정
+
 

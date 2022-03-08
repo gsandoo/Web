@@ -33,3 +33,13 @@
     transition: 1s;
     transform: rotateX(60deg);
   }
+
+ /* backface- visibility 사용법 */
+  .hello {
+    margin: 70px;
+    width: 300px;
+    border: 3px solid lightgrey;
+    transition: 1s;
+    transform: perspective(400px) rotateY(50deg); /* 원근감(3d)를 위해 퍼스펙티브 사용 */
+    backface-visibility: hidden; /* backface- visibility 사용법 */
+  }
