@@ -1,0 +1,62 @@
+header {
+}
+header .top {
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: bold;
+    font-size: 11px;
+    
+}
+header .bottom {
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header .container_left{
+    width: 30%;
+    float: left;
+    padding-top: 3px;
+}
+header .container_left .youtube {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+header .container_left .facebook {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+header .container_left .instagram {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+header .container_right{
+    width: 200px;
+    float: right;
+    
+}
+header .create {
+    font-size: 9px;
+    
+    
+}
+header .login {
+    font-size: 9px;
+    margin-left: 20px;
+}
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: block; 
+}
+
