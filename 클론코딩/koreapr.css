@@ -43,12 +43,10 @@ header .container_left .instagram {
 header .container_right{
     width: 200px;
     float: right;
-    
 }
 header .create {
     font-size: 9px;
-    
-    
+    padding-left: 50px;
 }
 header .login {
     font-size: 9px;
