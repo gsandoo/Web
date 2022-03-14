@@ -9,6 +9,7 @@ header .top {
     padding-bottom: 13px;
     font-weight: bold;
     font-size: 11px;
+    
 }
 header .bottom {
     background-color: lightgray;
@@ -42,6 +43,7 @@ header .container_left .instagram {
 header .container_right{
     width: 200px;
     float: right;
+    margin-right: 50px;
 }
 header .create {
     font-size: 9px;
@@ -72,27 +74,63 @@ header .below{
     float: right;
     padding-top: 25px;
     font-size: 11px;
-    margin-right: 60px;
+    margin-right: 105px;
 }
-.below .menu .about{
-    margin-left: 7px;
-}
-.about:hover{
-
-}
-.below .menu .pr_awards{
+.menu li {
+    display: inline;
     margin-left: 50px;
 }
-.below .menu .career{
-    margin-left: 50px;
+a {
+    font-weight: bold;
+    font-size: 11px;
+    color: black;
+    text-decoration: none;
 }
-.below .menu .news{
-    margin-left: 50px;
+.about a:hover{
+    font-size: 0;
 }
-.below .menu .library{
-    margin-left: 50px;
+.about a:hover::before{
+    content: "ABOUT";
+    font-size: 11px;
+    color: gray;
 }
-.below .menu .membership{
-    margin-left: 50px;
+.pr_awards a:hover{
+    font-size: 0;
 }
-
+.pr_awards a:hover::before{
+    content: "PR AWARDS";
+    font-size: 11px;
+    color: gray;
+}
+.career a:hover{
+    font-size: 0;
+}
+.career a:hover::before{
+    content: "CAREER";
+    font-size: 11px;
+    color: gray;
+}
+.news a:hover{
+    font-size: 0;
+}
+.news a:hover::before{
+    content: "NEWS ROOM";
+    font-size: 11px;
+    color: gray;
+}
+.library a:hover{
+    font-size: 0;
+}
+.library a:hover::before{
+    content: "LIBRARY";
+    font-size: 11px;
+    color: gray;
+}
+.membership a:hover{
+    font-size: 0;
+}
+.membership a:hover::before{
+    content: "MEMBERSHIP";
+    font-size: 11px;
+    color: gray;
+}
