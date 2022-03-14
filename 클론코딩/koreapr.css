@@ -56,4 +56,43 @@ header .login {
     clear: both;
     display: block; 
 }
+header .below{
+    border-bottom: 1px solid lightgray;
+    box-sizing: border-box;
+}
+.below .pr_logo{
+    width: 110px;
+    height: 50px;
+    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+}
+.below .menu{
+    float: right;
+    padding-top: 25px;
+    font-size: 11px;
+    margin-right: 60px;
+}
+.below .menu .about{
+    margin-left: 7px;
+}
+.about:hover{
+
+}
+.below .menu .pr_awards{
+    margin-left: 50px;
+}
+.below .menu .career{
+    margin-left: 50px;
+}
+.below .menu .news{
+    margin-left: 50px;
+}
+.below .menu .library{
+    margin-left: 50px;
+}
+.below .menu .membership{
+    margin-left: 50px;
+}
 
