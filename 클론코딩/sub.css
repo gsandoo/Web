@@ -1,0 +1,95 @@
+.menu{
+    display: flex;
+    position: relative;
+}
+.menu ul{
+    list-style:none;
+}
+.menu ul>a{
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+.menu li{
+    list-style:none;
+}
+.menu ul li a{
+    color: inherit;
+    text-decoration: inherit;
+    opacity: 1;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.menu ul>a:hover{
+    font-size: 0;
+}
+.menu .about>a:hover::before{
+    content: "ABOUT";
+    font-size: 11px;
+    color: lightgray;
+    font-weight: bold;
+}
+.menu:hover .about>li{
+    display: block;
+    opacity: 1;
+}
+.menu>.about{
+
+}
+.menu>.about>a{
+
+}
+.about>li{
+
+}
+.menu>.pr_awards{
+
+}
+.menu>.pr_awards>a{
+
+}
+.pr_awards>li{
+
+}
+.menu>.career{
+
+}
+.menu>.career>a{
+
+}
+.career>li{
+
+}
+.menu>.news{
+
+}
+.menu>.news>a{
+
+}
+.news>li{
+
+}
+.menu>.library{
+
+}
+.library>.about>a{
+
+}
+.library>li{
+
+}
+.menu>.membership{
+
+}
+.menu>.membership>a{
+
+}
+.membership>li{
+
+}

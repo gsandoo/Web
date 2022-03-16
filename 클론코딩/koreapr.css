@@ -16,6 +16,11 @@ header .top {
     font-size: 11px;
     
 }
+header .top > a{
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: bold;
+}
 header .bottom {
     background-color: lightgray;
     padding-top: 10px;
@@ -50,6 +55,11 @@ header .container_right{
     float: right;
     margin-right: 50px;
 }
+.container_right > a{
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: bold;
+}
 header .create {
     font-size: 9px;
     padding-left: 50px;
@@ -58,11 +68,7 @@ header .login {
     font-size: 9px;
     margin-left: 20px;
 }
-.clearfix::after{
-    content:"";
-    clear: both;
-    display: block; 
-}
+
 header .below{
     border-bottom: 1px solid lightgray;
     box-sizing: border-box;
@@ -76,6 +82,7 @@ header .below{
     padding: 5px 0px 5px 0px;
 }
 .below .menu{
+    display: inline-flex;
     height: 50px;  
     float: right;
     padding-top: 25px;
@@ -83,42 +90,27 @@ header .below{
     margin-right: 105px;
     box-sizing: border-box;
 }
-.menu li {
-    margin-left: 30px;
-    display: inline;
-}
-.submenu .about_sebmenu{
-    border: 1px solid red;
-    display: block;
-    opacity: 0;
-    visibility: hidden;
-}
-
-a {
+.menu > ul > a {
     font-weight: bold;
     font-size: 11px;
-    color: black;
-    text-decoration: none;
+    color: inherit;
+    text-decoration: inherit;
+    margin-left: 40px;
 }
-/* .about li {
-   border: 1px solid tomato;
-   align-items: center;
-   justify-content: center;
-   display: flex;
-   opacity: 0;
-   visibility: hidden;
-} */
-.about .submenu{
-
+.menu li /*메뉴태그 안에 모든 li*/{
+    margin-left: 40px;
+    border: 1px solid red;
+    display: none;
+    position: absolute;
 }
-.about a:hover{
+.menu > .about > a:hover/*마우스를 협회안내에 올렸을 때*/{
     font-size: 0;
 }
-
-.about a:hover::before{
+.menu .about a:hover::before{
     content: "ABOUT";
     font-size: 11px;
     color: gray;
+
     
 }
 .pr_awards a:hover{
@@ -160,4 +152,9 @@ a {
     content: "MEMBERSHIP";
     font-size: 11px;
     color: gray;
+}
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: block;
 }
