@@ -81,37 +81,41 @@ header .below{
     align-items: center;
     padding: 5px 0px 5px 0px;
 }
-.below .menu{
-    display: inline-flex;
-    height: 50px;  
+.below .menu ul{
+    display: inline;
+    /*height: 50px;*/  
     float: right;
-    padding-top: 25px;
+    /*padding-top: 25px;
     font-size: 11px;
     margin-right: 105px;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 }
-.menu > ul > a {
+.menu .about{
+    /* position: relative; */
+}
+.menu a {
     font-weight: bold;
     font-size: 11px;
     color: inherit;
     text-decoration: inherit;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 .menu li /*메뉴태그 안에 모든 li*/{
-    margin-left: 40px;
+    /* margin-left: 40px;
     border: 1px solid red;
     display: none;
-    position: absolute;
+    position: absolute; */
 }
 .menu > .about > a:hover/*마우스를 협회안내에 올렸을 때*/{
-    font-size: 0;
+    /* font-size: 0; */
 }
 .menu .about a:hover::before{
-    content: "ABOUT";
+    /* content: "ABOUT";
     font-size: 11px;
-    color: gray;
-
-    
+    color: gray; */
+}
+.menu .about a:hover li {
+    /* display: block; */
 }
 .pr_awards a:hover{
     font-size: 0;
@@ -157,4 +161,175 @@ header .below{
     content:"";
     clear: both;
     display: block;
+}
+
+
+/*메인 아티클*/
+
+
+
+main{
+    padding: 0px 70px 0px 70px;
+    
+}
+
+#main_image{
+    width: 1380px;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#title{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    background-color: antiquewhite;
+}
+main>section>article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main>section>article>div{
+    display: inline-block;
+    /* width: 230px;
+    height: 200px;          /*얘네들은 있으나 마나 밑에 1,2,3이랑 같은 효과*/
+    /*background-color: tomato; */
+    margin: 30px 15px 30px 15px;
+    position: relative;
+}
+#first{
+    width: 230px;
+    height: 200px;
+}
+#second{
+    width: 230px;
+    height: 200px;
+}
+#third{
+    width: 230px;
+    height: 200px; 
+}
+main>section>article>div>div{ /*자세히보기 absolute 는 이미지와 관계 가지기 위해*/
+    top: 105%;
+    left: 58%;
+    position: absolute;
+    border: 3px solid lightgray;
+    padding: 5px;
+    box-sizing: border-box;
+}
+article>div>div>a{
+    color: inherit;
+    text-decoration: inherit;
+    font-weight:bold
+}
+#awards{
+    height: 100px;
+    background-color: darkcyan ;
+    margin-top: 50px;
+}
+#awards>a{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: inherit;
+}
+#secondtitle{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    background-color: blueviolet;
+}
+.mainsection{
+    font-size: 0;
+}
+
+#secsection{ /*block 요소*/
+    width: 50%;
+    display: inline-block;
+}
+
+#secfirst{
+    width: 90%;
+    height: 600px;
+    margin-top: 50px;
+    display: block;
+}
+#secsection>div:nth-child(2){
+    display: inline-block;
+    margin: 0px 20px 0px 40px;
+}
+#secsection>div:nth-child(3){
+    display: inline-block;
+}
+#secsecond{
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left:160px;
+}
+#secthird{
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+}
+#secarticle{
+    width: 50%;
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+    
+}
+#secfourth{
+    width: 100%;
+    height: 100px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+#secnews{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    margin-top: 50px;
+}
+#secnews>div>{
+    width: 100px;
+    height: 25px;
+    background-color: yellow;
+}
+#secarticle article{
+    width: 100%;
+    height: 250px;
+    /* background-color: cadetblue; */
+}
+#secarticle article>div>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+#secarticle article>div>img>div{
+    display: flex;
+    height: 30px;
+}
+#secarticle article>div>img>div>a{
+    display: inline-block;
+    width: 50px;
+    height: 100px;
 }
