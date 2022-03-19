@@ -30,26 +30,14 @@ header .container_left{
     width: 30%;
     float: left;
     padding-top: 3px;
+    margin-left: 50px;
 }
-header .container_left .youtube {
+header .container_left .headerlogo{
     width: 15px;
     height: 15px;
     border-radius: 5px;
-    margin-left: 80px;
+    margin-left: 15px;
 }
-header .container_left .facebook {
-    width: 15px;
-    height: 15px;
-    border-radius: 5px;
-    margin-left: 5px;
-}
-header .container_left .instagram {
-    width: 15px;
-    height: 15px;
-    border-radius: 5px;
-    margin-left: 5px;
-}
-
 header .container_right{
     width: 200px;
     float: right;
@@ -71,7 +59,8 @@ header .login {
 
 header .below{
     border-bottom: 1px solid lightgray;
-    box-sizing: border-box;
+    background-color: beige;
+    
 }
 .below .pr_logo{
     width: 110px;
@@ -81,89 +70,29 @@ header .below{
     align-items: center;
     padding: 5px 0px 5px 0px;
 }
-.below .menu ul{
-    display: inline;
-    /*height: 50px;*/  
+.menu{
+    background-color: tomato;
+    display: flex;
+    margin-right: 100px;
+    padding-top: 20px;
     float: right;
-    /*padding-top: 25px;
-    font-size: 11px;
-    margin-right: 105px;
-    box-sizing: border-box; */
+    box-sizing: border-box;
+
 }
-.menu .about{
-    /* position: relative; */
+.menu .tabmenu{
+    display: inline-block;
+    background: skyblue;
+    margin-left: 50px;
 }
-.menu a {
-    font-weight: bold;
-    font-size: 11px;
+.tabmenu a{
     color: inherit;
     text-decoration: inherit;
-    /* margin-left: 40px; */
+    font-weight: bold;
 }
-.menu li /*메뉴태그 안에 모든 li*/{
-    /* margin-left: 40px;
-    border: 1px solid red;
+.tabcontent a{
     display: none;
-    position: absolute; */
+    
 }
-.menu > .about > a:hover/*마우스를 협회안내에 올렸을 때*/{
-    /* font-size: 0; */
-}
-.menu .about a:hover::before{
-    /* content: "ABOUT";
-    font-size: 11px;
-    color: gray; */
-}
-.menu .about a:hover li {
-    /* display: block; */
-}
-.pr_awards a:hover{
-    font-size: 0;
-}
-.pr_awards a:hover::before{
-    content: "PR AWARDS";
-    font-size: 11px;
-    color: gray;
-}
-.career a:hover{
-    font-size: 0;
-}
-.career a:hover::before{
-    content: "CAREER";
-    font-size: 11px;
-    color: gray;
-}
-.news a:hover{
-    font-size: 0;
-}
-.news a:hover::before{
-    content: "NEWS ROOM";
-    font-size: 11px;
-    color: gray;
-}
-.library a:hover{
-    font-size: 0;
-}
-.library a:hover::before{
-    content: "LIBRARY";
-    font-size: 11px;
-    color: gray;
-}
-.membership a:hover{
-    font-size: 0;
-}
-.membership a:hover::before{
-    content: "MEMBERSHIP";
-    font-size: 11px;
-    color: gray;
-}
-.clearfix::after{
-    content:"";
-    clear: both;
-    display: block;
-}
-
-
 /*메인 아티클*/
 #main_image{
     width: 1380px;
@@ -468,6 +397,7 @@ article>div>div>a{
     left:10%;
     position: absolute;
     background-color: aqua;
+    text-decoration: inherit;
 }
 .footernav span .money{
     font-weight: bold;
@@ -477,6 +407,7 @@ article>div>div>a{
     left:30%;
     position: absolute;
     background-color: aqua;
+    text-decoration: inherit;
 }
 .footernav span .more{
     width: 50px;
@@ -492,7 +423,6 @@ article>div>div>a{
 }
 .footerbelow>div{
     display: inline-block;
-   
 }
 .ftlogo{
     width: 110px;
@@ -500,6 +430,7 @@ article>div>div>a{
     display: block;
     padding-bottom: 50px ;
     margin-right: 50px;
+    
 }
 .ftmiddle{
     width: 500px;
@@ -507,13 +438,18 @@ article>div>div>a{
     margin-right: 30px;
     padding-top: 50px;
 }
+.ftmiddle p{
+    background-color: aquamarine;
+}
 .ftmiddle a{
     color: inherit;
     text-decoration: inherit;
     font-weight: bold;
+    margin-right: 10px;
 }
 .ftmiddle address{
     padding-top: 20px;
+    font-size: 14px;
 }
 .footerbottom .ftright {
     display: inline-block;
@@ -526,5 +462,4 @@ article>div>div>a{
     width: 15px;
     height: 15px;
     border-radius: 5px;
-    
 }
